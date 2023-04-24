@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.welcome {
+    padding: 1px;
+    color: rgb(107, 107, 107);
+
+}
+
+.content {
+    padding: 1px;
+
+    color: #3d7edf;
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.signup_page {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+
+}
+
+.imgdiv {
+    width: 460px;
+}
+
+.img {
+    width: 300px;
+    height: 320px;
+    margin: 0px 52px;
+
+}
+
+.signup-content {
+    margin: 0px 48px 0px 0px;
+    padding: 25px;
+    height: 327px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px #64a1fd;
+    margin-bottom: 3px;
+}
+
+.form-item {
+    margin-top: 20px;
+    position: relative;
+}
+
+label {
+    font-size: 10px;
+    color: rgb(109, 109, 109);
+    padding: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+
+}
+
+input {
+    width: 230px;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 4px;
+    font-size: 12px;
+    outline: none;
+    border-radius: 2px;
+}
+
+input:focus~.label,
+input:not(:focus):valid~.label {
+    top: -20px;
+    left: -4px;
+    font-size: 11px;
+    opacity: 1;
+    color: rgb(109, 109, 109);
+    transition: 0.50s;
+}
+
+.icon {
+    color: rgb(197, 197, 197);
+}
+
+#eyeopen {
+    position: absolute;
+    font-size: 12px;
+    top: 6px;
+    right: 10px;
+}
+
+#eyeclose {
+    position: absolute;
+    font-size: 12px;
+    color: gainsboro;
+    display: none;
+    top: 6px;
+    right: 20px;
+}
+
+.btn {
+    width: 230px;
+    margin-top: 20px;
+    border: 0px solid gray;
+    padding: 6px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #3d7edf;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #3d7edf;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px #3d7edf;
+}
+
+.footer {
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top: 9px;
+    color: gray;
+}
+
+.little-word {
+    color: cornflowerblue;
+    cursor: pointer;
+}
