@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Domestic Delights</title>
     <link rel="stylesheet" href="style.css">
@@ -14,32 +15,43 @@
                 <img src="./imges-signup/img.svg" class="img">
             </div>
             <div class="signup-content">
-                <p class="welcome">Happy Morning!</p>
-                <p class="content">Create a new account</p>
-                <form class="form">
-                    <div class="form-item">
-                        <input type="text" required>
-                        <label class="label">Username</label>
-                    </div>
-                    <div class="form-item">
-                        <input type="text" required>
-                        <label class="label">Email</label>
-                    </div>
-                    <div class="form-item">
-                        <input type="text" required>
-                        <label class="label">Password</label>
-                        <span class="icon"> <i class="fa-regular fa-eye" id="eyeopen"></i></span>
-                        <span class="icon"> <i class="fa-regular fa-eye-slash" id="eyeclose"></i></span>
-                    </div>
-                    <button type="submit" class="btn">
-                        Sign Up
-                    </button>
-                    <p class="footer">You already have an account?
-                        <?</p><span class="little-word"> Login</span>
-                </form>
+                <div class="list">
+                    <p class="welcome"></p>
+                    <p class="content">Create a new account</p>
+                    <form class="form">
+                        <div class="form-item">
+                            <input type="text" required>
+                            <label class="label">Username</label>
+                            <p class="require">* Please enter the valid Username</p>
+
+                        </div>
+                        <div class="form-item">
+                            <input type="email"  required>
+                            <label class="label">Email</label>
+                            <p class="require">* Please enter the valid email</p>
+
+
+                        </div>
+                        <div class="form-item">
+                            <input type="password" required>
+                            <label class="label">Password</label>
+                            <span class="icon"> <i class="fa-regular fa-eye" id="eyeopen"></i></span>
+                            <span class="icon"> <i class="fa-regular fa-eye-slash" id="eyeclose"></i></span>
+                            <p class="require passwords" >* Please enter the valid password</p>
+
+
+                        </div>
+                        <button type="submit" class="btn">
+                            Sign Up
+                        </button>
+                        <p class="footer">You already have an account?
+                            <a href="login_page/login_in.html" class="little-word"> Login</span>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
     <script src="website.js"></script>
 </body>
+
 </html>

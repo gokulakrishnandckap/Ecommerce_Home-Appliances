@@ -4,123 +4,122 @@
     box-sizing: border-box;
 }
 .container {
-    font-family: sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.imgdiv > img {
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left:80px;
+}
+.signup_page{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
 }
 
+.signup-content {
+    height: 500px;
+    width: 32%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px #64a1fd;
+    margin-left: 170px;
+    margin-top: 20px;
+}
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-left: 12px;
     margin-top: 12px;
 }
 
 .welcome {
-    padding: 1px;
-    color: rgb(107, 107, 107);
-
+    margin-bottom: 16px;
+    color: #1e1e1f;
+    font-size: 24px;
 }
 
 .content {
-    padding: 1px;
-
     color: #3d7edf;
     margin-top: 9px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
 }
-
-.signup_page {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 15px;
-
-}
-
-.imgdiv {
-    width: 460px;
-}
-
-.img {
-    width: 300px;
-    height: 320px;
-    margin: 0px 52px;
-
-}
-
-.signup-content {
-    margin: 0px 48px 0px 0px;
-    padding: 25px;
-    height: 327px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 2px 0px #64a1fd;
-    margin-bottom: 3px;
+a{
+    text-decoration: none;
 }
 
 .form-item {
-    margin-top: 20px;
     position: relative;
+    margin-bottom: 10px;
 }
 
+
 label {
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(109, 109, 109);
     padding: 3px;
-    margin-left: 3px;
-    margin-top: 3px;
     position: absolute;
-    top: 0px;
-    left: 2px;
-
+    top: 23px;
+    left: 4px;
 }
 
 input {
-    width: 230px;
+    width: 75%;
     border: 1px solid rgb(206, 206, 206);
-    padding: 4px;
     font-size: 12px;
     outline: none;
-    border-radius: 2px;
+    border-radius: 3px;
+    height: 35px;
+    margin: 18px 0px;
+    padding-left: 6px;
 }
+
 
 input:focus~.label,
 input:not(:focus):valid~.label {
-    top: -20px;
-    left: -4px;
-    font-size: 11px;
+    top: -5px;
+    font-size: 15px;
     opacity: 1;
     color: rgb(109, 109, 109);
     transition: 0.50s;
+}
+form.form {
+    margin-top: 13px;
 }
 
 .icon {
     color: rgb(197, 197, 197);
 }
 
+
 #eyeopen {
     position: absolute;
-    font-size: 12px;
-    top: 6px;
-    right: 10px;
+    font-size: 15px;
+    top: 27px;
+    left: 282px;
+    display: none;
 }
 
 #eyeclose {
     position: absolute;
-    font-size: 12px;
-    color: gainsboro;
-    display: none;
-    top: 6px;
-    right: 20px;
+    font-size: 15px;
+    top: 27px;
+    left: 282px;
 }
 
 .btn {
-    width: 230px;
-    margin-top: 20px;
+    width: 75%;
+    height: 35px;
+    margin-top: 25px;
     border: 0px solid gray;
-    padding: 6px;
     color: white;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     background-color: #3d7edf;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .btn:hover {
@@ -130,13 +129,30 @@ input:not(:focus):valid~.label {
 }
 
 .footer {
-    font-size: 10px;
-    margin-left: 35px;
-    margin-top: 9px;
+    font-size: 12px;
+    margin-left: 64px;
+    margin-top: 8px;
     color: gray;
 }
 
 .little-word {
     color: cornflowerblue;
+    cursor: pointer;
+}   
+
+.list {
+    width: 100%;
+    margin: 60px 50px;
+}
+
+.require{
+    color: #ff0101;
+    position: absolute;
+    top: 56px;
+    left: 5px;
+    display: none;
+    
+}
+i{
     cursor: pointer;
 }
