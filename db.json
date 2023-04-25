@@ -1,0 +1,270 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com",
+      "address": "some random adress,chennai"
+    },
+    {
+      "id": 2,
+      "first_name": "charlie",
+      "last_name": "charlie",
+      "email": "charlie@gmail.com",
+      "address": "some random adress,chennai"
+    },
+    {
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com",
+      "address": "some random adress,chennai",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "EVA ADC 750w Mixer grinder",
+      "description": "A grinder-mixer is a portable mill that combines the mixing and grinding operations",
+      "keyfeatures":[
+        "10% less power consumption",
+        "20% more power",
+        "40% more cooling",
+        "Faster cooling support",
+        "secure lock while operating"
+      ],
+      "price": "₹20,999",
+      "category": "Kitchen Appliances",
+      "images": [
+        "https://i.ibb.co/PGgzr3q/vidiem.png",
+        "https://i.ibb.co/YByYwTf/vidiem2.png",
+        "https://i.ibb.co/SVZwMNT/vidiem3.png",
+        "https://i.ibb.co/MMjqHwk/vidiem4.png",
+        "https://i.ibb.co/9rT5W6d/vidiem5.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dishwasher",
+      "description": "A Dishwasher is a professional who is responsible for cleaning dishes in a foodservice environment to ensure that there is always plenty of clean tableware at hand. When washing, they prioritize different types and sizes of crockery and kitchen utensils.",
+      "keyfeatures":[
+        "10% less power consumption",
+        "20% more power",
+        "Quick wash",
+        "Safely disposing garbage waste",
+        "Efficient interior design & stainless tub"
+      ],
+      "price": "₹19,999",
+      "category": "Kitchen Appliances",
+      "images": [
+        "https://i.ibb.co/23TfSt8/washer-1.webp",
+        "https://i.ibb.co/tsjnLpz/washer-2.webp",
+        "https://i.ibb.co/yyF9VHj/washer-3.webp",
+        "https://i.ibb.co/nsFLrVc/washer-4.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Water Purifier",
+      "description": "A water filter removes impurities by lowering contamination of water using a fine physical barrier, a chemical process, or a biological process.",
+      "price": "₹8,999",
+      "keyfeatures":[
+        "10% less power consumption",
+        "20% more power",
+        "Remove unwanted impurities in fraction of seconds",
+        "inprovice taste,color & bacteria",
+        "Efficient interior design"
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/0c47TTg/purifier-4.webp",
+        "https://i.ibb.co/vkxTZ1g/purifier-2.webp",
+        "https://i.ibb.co/0Kh3q7V/purifier-3.webp",
+        "https://i.ibb.co/Lrrxzx0/purifier-1.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Air Conditioner",
+      "description": "An air conditioner cools your home with a cold indoor coil called the evaporator. The condenser, a hot outdoor coil, releases the collected heat outside. The evaporator and condenser coils are serpentine tubing surrounded by aluminum fins. This tubing is usually made of copper.",
+      "price": "₹30,999",
+      "keyfeatures":[
+        "Heat and cool function with heat pump technology.",
+        "Air improvement system with particle filter.",
+        "Dehumidify.",
+        "No water tank to empty.",
+        "Out of the box operation - plug and play."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/M9vV8B6/AC-1.webp",
+        "https://i.ibb.co/bL3d1zD/AC-3.webp",
+        "https://i.ibb.co/Yk42BYF/AC-4.webp",
+        "https://i.ibb.co/XF12hwC/AC-5.webp"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Microwave Oven",
+      "description": "A microwave oven is a relatively small, boxlike oven that raises the temperature of food by subjecting it to a high-frequency electromagnetic field.",
+      "price": "₹12,999",
+      "keyfeatures":[
+        "Microwaves cook food faster than conventional ovens and won't make a mess in the process.",
+        "Reheats food instantly quickly.",
+        "Helpful for health conscious people.",
+        "Microwaves also ensure that you'll never burn your food again.",
+        "Microwaves are also very economical and energy efficient."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/Wf1LkZB/oven-1.webp",
+        "https://i.ibb.co/LnfVS3b/oven-2.webp",
+        "https://i.ibb.co/Cbhyr1L/oven-3.webp",
+        "https://i.ibb.co/fSG1HKT/oven-4.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Washing Machine",
+      "description": "A washer dryer is a washing machine with an inbuilt tumble dryer, so if you need to dry clothes quickly, it's a good option as it both washes and dries your clothes.",
+      "price": "₹36,999",
+      "keyfeatures":[
+        "Washing Machines are Water and Energy-Savers.",
+        "Family-Size Modern Laundry Machines Fit Small Spaces.",
+        "Laundry Machines and Dryers Save Time.",
+        "Quality Washers and Dryers Takes Care of Your Clothes.",
+        "Washing Your Clothes Dramatically Reduces Your Household Expenses."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/pwChRmx/washing-1.webp",
+        "https://i.ibb.co/r4tRY1Z/washing-2.webp",
+        "https://i.ibb.co/PFk5626/washing-3.webp",
+        "https://i.ibb.co/Fx7VBZr/washing-4.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Vaccum Cleaner",
+      "description": "They are majorly used to remove dirt and dust from upholstery, carpets, velveteen furniture and floors made of hardwood and many varieties of floors, including laminated floors.",
+      "price": "₹11,499",
+      "keyfeatures":[
+        "Capture Excess Pet Hair.",
+        "Exert Insect Control.",
+        "Freshen Upholstery, Pillows, and Carpets.",
+        "Prevent House Fires.",
+        "Reduce Indoor Allergens."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/Pjxp1ML/cleaner-1.webp",
+        "https://i.ibb.co/JcccfBQ/cleaner-2.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Coffe Maker",
+      "description": "A coffee maker is described as a plug in appliance that pushes hot water through coffee beans to create coffee.",
+      "price": "₹7,499",
+      "keyfeatures":[
+        "Warm a Baby Bottle.",
+        "Make Pancakes.",
+        "Poach Fish.",
+        "Melt Chocolate Fondue.",
+        "Grill Cheese."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/XLvYmHV/coffee-1.jpg",
+        "https://i.ibb.co/gWB72Z0/coffee-2.jpg",
+        "https://i.ibb.co/G0F60RL/coffee-3.jpg",
+        "https://i.ibb.co/tcKMsbJ/coffee-4.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Refrigerator",
+      "description": "A refrigerator, colloquially fridge, is a commercial and home appliance consisting of a thermally insulated compartment and a heat pump (mechanical, electronic or chemical) that transfers heat from its inside to its external environment so that its inside is cooled to a temperature below the room temperature.",
+      "price": "₹24,999",
+      "keyfeatures":[
+        "District Cooling.",
+        "Electricity Production.",
+        "Chemical and Petrochemicals.",
+        "Pharmaceutical.",
+        "Food & Beverages."
+      ],
+      "category": "Home Appliances",
+      "images": [
+        "https://i.ibb.co/5KkkBMr/fridge-1.webp",
+        "https://i.ibb.co/KFvjWmd/fridge-2.webp",
+        "https://i.ibb.co/02SKRXK/fridge-3.webp",
+        "https://i.ibb.co/Wnz2N0k/fridge-4.webp"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "id": 3
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 1,
+      "comment": "review1 for product A",
+      "productId": 1
+    },
+    {
+      "id": 1,
+      "rating": 5,
+      "comment": "review2 for product A",
+      "productId": 1
+    },
+    {
+      "id": 1,
+      "rating": 3,
+      "comment": "review1 for product B",
+      "productId": 2
+    },
+    {
+      "id": 1,
+      "rating": 3,
+      "comment": "review1 for product C",
+      "productId": 3
+    }
+  ]
+}
