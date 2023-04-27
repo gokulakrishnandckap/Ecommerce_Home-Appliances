@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "i": "^0.3.7",
-    "json-server": "^0.17.3"
+    "json": "^11.0.0",
+    "json-server": "^0.17.3",
+    "server": "^1.0.38"
   }
 }
